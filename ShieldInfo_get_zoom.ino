@@ -19,7 +19,7 @@
 const int                shieldAddress = 0x6E;
 BMD_SDICameraControl_I2C sdiCameraControl(shieldAddress);
 BMD_SDITallyControl_I2C sdiTallyControl(shieldAddress);
-int ZoomValue = 21; //14
+int ZoomValue = 14; //14
 
 void setup() {
   Serial.begin(9600);
