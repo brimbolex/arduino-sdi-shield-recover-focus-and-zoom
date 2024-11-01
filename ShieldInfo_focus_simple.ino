@@ -119,7 +119,7 @@ if (FocusValue <= 1)
 
     else
     {
-    FocusValue = 0.7;
+    FocusValue = 0.1;
     
     sdiCameraControl.writeCommandFixed16(
     1, // Destination: Camera 1
